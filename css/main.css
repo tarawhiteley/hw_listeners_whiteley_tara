@@ -1,0 +1,34 @@
+body {
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+}
+
+form {
+    width: 85%;
+    margin: auto;
+}
+
+form input,
+textarea {
+    width: 90%;
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 0;
+    color: black;
+}
+
+legend {
+    padding: 20px 0 5px 0;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+#submit {
+    width: 30%;
+}
