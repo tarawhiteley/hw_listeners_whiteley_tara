@@ -1,9 +1,8 @@
-var formSubmit = document.getElementById('submit');
+var clickLink = document.getElementsByClassName('team');
 
-formSubmit.addEventListener('click', function (evt) {
+clickLink.addEventListener('click', function (evt) {
     evt.preventDefault();
-    console.log('The firstName is: firstName');
-    console.log('The lastName is: lastName');
-    console.log('The email is: email');
-    console.log('The message is: message');
+    console.log('I see you');
+    var steelersText = document.createElement('article');
+    steelersText.innerHTML = '<h4>You picked an awesome team!</h4>';
 });
