@@ -1,8 +1,8 @@
-var clickLink = document.getElementsByClassName('team');
+var linkClicker = document.getElementsByClassName('team');
 
-clickLink.addEventListener('click', function (evt) {
+linkClicker.addEventListener('click', function (evt) {
     evt.preventDefault();
-    console.log('I see you');
     var steelersText = document.createElement('article');
-    steelersText.innerHTML = '<h4>You picked an awesome team!</h4>';
+    steelersText.innerHTML = '<h4>You clicked an awesome team!</h4>';
+    document.getElementsByClassName('team').appendChild(steelersText);
 });

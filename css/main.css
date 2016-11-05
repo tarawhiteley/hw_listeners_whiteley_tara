@@ -16,9 +16,15 @@ h2 {
     font-size: 1.8em;
 }
 
+h3 {
+    font-size: 1.4em;
+}
+
+/* padding of 0 added to offset padding-left of 40 that was added in the normalize.min.css */
 ul {
     width: 30%;
     margin: auto;
+    padding: 0;
 }
 
 li {
